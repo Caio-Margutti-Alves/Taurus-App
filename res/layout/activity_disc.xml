@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="5dp"
+        android:text="Procurando por disciplina:"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_x="105dp"
+        android:layout_y="80dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="90dp"
+        android:text="Disciplina"
+        android:textSize="20dp" />
+
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="79dp"
+        android:layout_y="130dp"
+        android:ems="10" />
+
+
+
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="140dp"
+        android:text="Turma"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_x="115dp"
+        android:layout_y="185dp"
+        android:text="Procurar" />
+
+</AbsoluteLayout>

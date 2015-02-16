@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_x="90dp"
+        android:layout_y="50dp"
+        android:enabled="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:onClick="addListenerOnButton"
+        android:text="Selecionar" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="3dp"
+        android:entries="@array/day_arrays"
+        android:prompt="@string/day_prompt" />
+
+</AbsoluteLayout>

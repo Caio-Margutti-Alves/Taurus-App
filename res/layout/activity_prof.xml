@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="5dp"
+        android:text="Procurando por professor:"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="90dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_x="115dp"
+        android:layout_y="145dp"
+        android:text="Procurar" />
+
+</AbsoluteLayout>

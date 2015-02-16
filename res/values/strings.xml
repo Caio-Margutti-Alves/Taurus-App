@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">Taurus</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Taurus</string>
+    <string name="title_activity_splash">Loading</string>
+	<string name="day_prompt">Selecione um dia</string>
+  
+	<string-array name="day_arrays">
+        <item>Segunda-Feira</item>
+        <item>Terça-Feira</item>
+        <item>Quarta-Feira</item>
+        <item>Quinta-Feira</item>
+        <item>Sexta-Feira</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+    </string-array>
+
+    <string name="title_activity_">Grade Horária</string>
+    <string name="title_activity_principal">Taurus</string>
+    <string name="title_activity_grade_horaria">Grade Horária</string>
+    <string name="title_activity_professor">Procurar por Professor</string>
+    <string name="title_activity_predio">Procura Por Prédio</string>
+    <string name="title_activity_sala">Procura Por Sala</string>
+    <string name="title_activity_disciplina">Procura Por Disciplina</string>
+	<string name="title_activity_reservas_sala">Busca de Reservas</string>
+	<string name="title_activity_mat_prof">Busca de Reservas</string>
+</resources>
